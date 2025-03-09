@@ -5,7 +5,7 @@ public class Main {
         System.out.println(book);
         System.out.println("Это большая книга?: " + book.isBig());
         System.out.println("Эта книга содержит слово 'сердце'?: " + book.matches("сердце"));
-        System.out.println("Сколько стоит эта книга? " + book.estimatePrice() + "руб.");
+        System.out.println("Сколько стоит эта книга? " + book.estimatePrice() + " руб.");
     }
 
     public static void main(String[] args) {
